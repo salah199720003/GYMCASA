@@ -22,7 +22,7 @@ class LigneCommande extends Model
         return $this->belongsTo(Produit::class, 'id_produit');
     }
 
-    // Relation avec la commande
+    // Relaion avec la commande
     
 
  
