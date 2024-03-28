@@ -75,7 +75,7 @@ Route::resource('usersdetails', detailscontroler::class);
 
 use App\Http\Controllers\CategorieController;
 
-// Afficher la liste des catégories
+// Affichr la liste des catégories
 Route::get('/categories', [CategorieController::class, 'index'])->name('categories.index');
 
 // Afficher le formulaire d'ajout de catégorie
